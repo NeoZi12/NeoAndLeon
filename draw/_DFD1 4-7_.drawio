@@ -1,0 +1,1054 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="4KomHxyI2tZYXI31FYhB">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p116xZQm3v9cJ2iETqo9-1" value="טיפול בשליחת הודעה למנהל P 4.1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-2" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-3" value="פרטי פנייה כללית למנהל F1.11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="80" as="sourcePoint" />
+            <mxPoint x="810" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-5" value="פניות ותשובות למנהל D5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="128" as="sourcePoint" />
+            <mxPoint x="810" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="150" as="sourcePoint" />
+            <mxPoint x="810" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-8" value="אירועים D2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="198" as="sourcePoint" />
+            <mxPoint x="810" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="215.5" as="sourcePoint" />
+            <mxPoint x="810" y="215.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-11" value="משתמשים D1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="225.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="263.5" as="sourcePoint" />
+            <mxPoint x="810" y="263.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="250" as="sourcePoint" />
+            <mxPoint x="600" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.988;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="180" as="sourcePoint" />
+            <mxPoint x="620" y="175.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.988;exitY=0.369;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p116xZQm3v9cJ2iETqo9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="160" as="sourcePoint" />
+            <mxPoint x="720" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.781;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p116xZQm3v9cJ2iETqo9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="75" as="sourcePoint" />
+            <mxPoint x="720" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="140" as="sourcePoint" />
+            <mxPoint x="330" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-18" value="מספר אירוע F2.7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-19" value="USER ID F3.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-20" value="USER ID F3.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-21" value="מספר אירוע F2.7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-22" value="פרטי פנייה כללית למנהל F1.11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-23" value="טיפול בקבלת פנייה מהמשתמש למנהל P 4.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="338" y="340" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-24" value="פרטי פנייה כללית למנהל F1.11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="148" y="380" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723" y="390" as="sourcePoint" />
+            <mxPoint x="813" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-26" value="פניות ותשובות למנהל D5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="733" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="723" y="438" as="sourcePoint" />
+            <mxPoint x="813" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-28" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="38" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="318" y="419.5" as="sourcePoint" />
+            <mxPoint x="128" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="698" y="419.5" as="sourcePoint" />
+            <mxPoint x="508" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-31" value="פרטי פנייה כללית למנהל F1.11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="523" y="380" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-32" value="החזרת תשובה לפנייה P4.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-33" value="פרטי התשובה לפנייה F4.13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="639" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="640" as="sourcePoint" />
+            <mxPoint x="825" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-35" value="פניות ותשובות למנהל D5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="688" as="sourcePoint" />
+            <mxPoint x="825" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-37" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="680" as="sourcePoint" />
+            <mxPoint x="330" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-39" value="פרטי התשובה לפנייה F4.13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="639" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="679" as="sourcePoint" />
+            <mxPoint x="695" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-41" value="הצגת תשובה של מנהל P4.4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="840" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="890" as="sourcePoint" />
+            <mxPoint x="820" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-43" value="פניות ותשובות למנהל D5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="938" as="sourcePoint" />
+            <mxPoint x="820" y="938" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-45" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="50" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="923.25" as="sourcePoint" />
+            <mxPoint x="520" y="923.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="325" y="929.5" as="sourcePoint" />
+            <mxPoint x="135" y="929.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-48" value="פרטי התשובה לפנייה F4.13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-49" value="פרטי התשובה לפנייה F4.13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="890" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-52" value="טיפול בהצגת מידע על המשתמשים למנהל P5.1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1198" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="1260" as="sourcePoint" />
+            <mxPoint x="505" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1287.5" as="sourcePoint" />
+            <mxPoint x="130" y="1287.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-58" value="&amp;nbsp;שם פרטיF5.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1233.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-60" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="38" y="1248" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="718" y="1218" as="sourcePoint" />
+            <mxPoint x="808" y="1218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-62" value="משתמשים D1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="728" y="1263.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="713" y="1358" as="sourcePoint" />
+            <mxPoint x="803" y="1358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-66" value="&amp;nbsp;שם משפחהF5.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1203.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-67" value="&amp;nbsp;USER ID F5.3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-68" value="&amp;nbsp;גיל F5.4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1263.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-69" value="&amp;nbsp;מייל F5.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="1349" as="sourcePoint" />
+            <mxPoint x="498" y="1349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1287.5" as="sourcePoint" />
+            <mxPoint x="500" y="1287.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="1230" as="sourcePoint" />
+            <mxPoint x="498" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="1320" as="sourcePoint" />
+            <mxPoint x="495" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-75" value="הצגת פרטי משתמש F5.1-F5.5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1248" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-76" value="טיפול בהצגת מידע על אירועים למנהל P5.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1430" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="1500" as="sourcePoint" />
+            <mxPoint x="485" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1519.5" as="sourcePoint" />
+            <mxPoint x="120" y="1519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-80" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="698" y="1414.5" as="sourcePoint" />
+            <mxPoint x="820" y="1415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-81" value="אירועים D2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-82" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="1620" as="sourcePoint" />
+            <mxPoint x="820" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="1582" as="sourcePoint" />
+            <mxPoint x="475" y="1582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1519.5" as="sourcePoint" />
+            <mxPoint x="490" y="1519.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.981;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="1462" as="sourcePoint" />
+            <mxPoint x="488" y="1462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-90" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="1552" as="sourcePoint" />
+            <mxPoint x="485" y="1552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-92" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1472" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-93" value="&amp;nbsp;שם אירועF6.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="568" y="1440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-94" value="&amp;nbsp;תאריך התחלהF6.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="1470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-95" value="&amp;nbsp;תאריך סיוםF6.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558" y="1495" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-96" value="&amp;nbsp;מיקום האירוע F6.3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-97" value="&amp;nbsp;רשימת משתתפים F6.4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1540" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-98" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.431;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663" y="1612" as="sourcePoint" />
+            <mxPoint x="473" y="1612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-99" value="&amp;nbsp;מספר אירוע F6.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-100" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="1429" as="sourcePoint" />
+            <mxPoint x="478" y="1429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-101" value="&amp;nbsp;קטגוריה וסיווג אירוע F6.6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-102" value="פרטי אירוע F6.0-F6.6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-103" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="16" y="1710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-104" value="P5.3 טיפול בהצגת מידע על אירועים שנוצרו למנהל" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1670" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="721" y="1730" as="sourcePoint" />
+            <mxPoint x="811" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-106" value="אירועים שנוצרו D3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-107" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719" y="1820" as="sourcePoint" />
+            <mxPoint x="809" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699" y="1740" as="sourcePoint" />
+            <mxPoint x="509" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="701" y="1780" as="sourcePoint" />
+            <mxPoint x="511" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-110" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696" y="1810" as="sourcePoint" />
+            <mxPoint x="506" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-111" value="F 7.0- תאריך יצירת אירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="531" y="1700" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-112" value="&amp;nbsp;מספר אירוע F 7.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="571" y="1748" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-113" value="&amp;nbsp;שם משתמש של יוצר האירוע F 7.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="519" y="1778" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-114" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="1748" as="sourcePoint" />
+            <mxPoint x="114" y="1748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-115" value="E2 מנהל" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="13" y="2037" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-116" value="P5.4 טיפול בהצגת תגובות של משתתפים על האירוע" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="337" y="1997" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-117" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="709" y="2052.5" as="sourcePoint" />
+            <mxPoint x="799" y="2052.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-118" value="תגובות לאירוע D6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="2062.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-119" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="709" y="2100.5" as="sourcePoint" />
+            <mxPoint x="799" y="2100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-120" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="2077" as="sourcePoint" />
+            <mxPoint x="488" y="2037" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-121" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.994;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="2076.5" as="sourcePoint" />
+            <mxPoint x="503" y="2076.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-122" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="2077" as="sourcePoint" />
+            <mxPoint x="486" y="2127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-126" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="321" y="2075" as="sourcePoint" />
+            <mxPoint x="111" y="2075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-127" value="F 8.0 פרטי תגובה לאירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="508" y="2007" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-128" value="F 8.1 שם המשתמש של כותב התגובה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="488" y="2117" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-129" value="&amp;nbsp;מספר אירוע F 8.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="497" y="2057" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-132" value="פרטי תגובות האירוע F8.0-F8.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="2035" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-133" value="פרטי האירועים שנוצרו F7.0-F7.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="141" y="1710" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-136" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-137" value="P6.1 טיפול בכתיבת הודעה כללית לאירוע" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2390" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-138" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696" y="2445.5" as="sourcePoint" />
+            <mxPoint x="786" y="2445.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-139" value="תגובות לאירוע D6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="706" y="2455.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-140" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696" y="2493.5" as="sourcePoint" />
+            <mxPoint x="786" y="2493.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-142" value="F9.13 תגובה לאירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2450" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-144" value="F 8.1 שם המשתמש של כותב התגובה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="2490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-154" value="תאריך תגובה F9.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="571" y="2420" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-156" value="F 8.1 שם המשתמש של כותב התגובה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="485" y="2460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-157" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="2550" as="sourcePoint" />
+            <mxPoint x="783" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-158" value="אירועים D2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="703" y="2560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-159" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="2598" as="sourcePoint" />
+            <mxPoint x="783" y="2598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-160" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.763;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p116xZQm3v9cJ2iETqo9-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="2590" as="sourcePoint" />
+            <mxPoint x="440" y="2610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="2543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-161" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2908" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-162" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2878" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-163" value="&amp;nbsp;מספר אירוע F 7.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2540" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-164" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="2410" as="sourcePoint" />
+            <mxPoint x="720" y="2430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="2360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-165" value="&amp;nbsp;מספר אירוע F 7.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="531" y="2380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-167" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="123" y="2470" as="sourcePoint" />
+            <mxPoint x="313" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-168" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="2519" as="sourcePoint" />
+            <mxPoint x="310" y="2519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-169" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="2450" as="sourcePoint" />
+            <mxPoint x="685" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-170" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="498" y="2490" as="sourcePoint" />
+            <mxPoint x="688" y="2490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-171" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="2885" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-172" value="P6.2 טיפול בהצגת תגובות לאירוע על ידי משתמשים" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2843" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-173" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="698" y="2900" as="sourcePoint" />
+            <mxPoint x="788" y="2900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-174" value="תגובות לאירוע D6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="708" y="2910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-175" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="698" y="2948" as="sourcePoint" />
+            <mxPoint x="788" y="2948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-176" value="תאריך תגובה F9.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-177" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="2434.5" as="sourcePoint" />
+            <mxPoint x="320" y="2434.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-180" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="2890" as="sourcePoint" />
+            <mxPoint x="495" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-181" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="2922.5" as="sourcePoint" />
+            <mxPoint x="498" y="2922.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-182" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="2960" as="sourcePoint" />
+            <mxPoint x="498" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-183" value="תאריך תגובה F9.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2848" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-184" value="F 8.1 שם המשתמש של כותב התגובה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2890" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-185" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="2509" as="sourcePoint" />
+            <mxPoint x="690" y="2509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-186" value="F9.13 תגובה לאירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="531" y="2510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-187" value="F9.13 תגובה לאירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2925" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-189" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2912" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-190" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2882" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-191" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="2894" as="sourcePoint" />
+            <mxPoint x="120" y="2894" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-192" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="313" y="2926.5" as="sourcePoint" />
+            <mxPoint x="123" y="2926.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-193" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="313" y="2964" as="sourcePoint" />
+            <mxPoint x="123" y="2964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-194" value="תאריך תגובה F9.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2852" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-195" value="F 8.1 שם המשתמש של כותב התגובה" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2894" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-196" value="F9.13 תגובה לאירוע" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2929" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-218" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="632" y="3693" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-219" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="601" y="3685" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-220" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="31" y="3692" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-221" value="P7 טיפול בשליחת בקשת חברות" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="326" y="3650" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-222" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="3685" as="sourcePoint" />
+            <mxPoint x="790" y="3685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-223" value="קשר בין משתתפים D8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="3695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-224" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="3733" as="sourcePoint" />
+            <mxPoint x="790" y="3733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-231" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="256" y="3719" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-239" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="123" y="3719" as="sourcePoint" />
+            <mxPoint x="313" y="3719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-240" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="3685" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-241" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="698" y="3790" as="sourcePoint" />
+            <mxPoint x="788" y="3790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-242" value="משתמשים D1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="3805.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-243" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="3850" as="sourcePoint" />
+            <mxPoint x="785" y="3850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-244" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="3830" as="sourcePoint" />
+            <mxPoint x="490" y="3782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-246" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=16;" vertex="1" parent="1">
+          <mxGeometry x="483" y="3810" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-247" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501" y="3704" as="sourcePoint" />
+            <mxPoint x="691" y="3704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-248" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="493" y="3670" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-251" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="3723" as="sourcePoint" />
+            <mxPoint x="693" y="3723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-254" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="498" y="3730" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-255" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="626.5" y="3993" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-256" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595.5" y="3985" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-257" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25.5" y="3992" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-258" value="P 7.1 טיפול בהתראות של בקשות חברות" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320.5" y="3950" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-259" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="694.5" y="3985" as="sourcePoint" />
+            <mxPoint x="784.5" y="3985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-260" value="קשר בין משתתפים D8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="704.5" y="3995" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-261" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="694.5" y="4033" as="sourcePoint" />
+            <mxPoint x="784.5" y="4033" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-262" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250.5" y="4019" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-268" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="4007.5" as="sourcePoint" />
+            <mxPoint x="488" y="4007.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-285" value="&amp;nbsp;D7 התראות" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="696" y="4220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-286" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681" y="4250" as="sourcePoint" />
+            <mxPoint x="781" y="4250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-287" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681" y="4220" as="sourcePoint" />
+            <mxPoint x="781" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-289" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="3970" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-290" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="4023" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-294" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683.5" y="4053" as="sourcePoint" />
+            <mxPoint x="486.5" y="4053" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-299" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p116xZQm3v9cJ2iETqo9-258">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693.5" y="4063" as="sourcePoint" />
+            <mxPoint x="680" y="4210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-300" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="4100" as="sourcePoint" />
+            <mxPoint x="652" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-301" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="435" y="4160" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-302" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="455" y="4140" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-303" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="4240" as="sourcePoint" />
+            <mxPoint x="400" y="4120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="4290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-305" value="F13 - בקשה לאישור חברות" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="538" y="4270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-306" value="F13 - בקשה לאישור חברות" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="143" y="4030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-307" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="306" y="4025" as="sourcePoint" />
+            <mxPoint x="111" y="4024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-310" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="4412" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-311" value="טיפול באישור של בקשת החברות P7.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="315" y="4370" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-315" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="4439" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-328" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="4440" as="sourcePoint" />
+            <mxPoint x="310" y="4440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-329" value="F14 - אישור על בקשת חברות&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="111" y="4409" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-330" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="703" y="4425.5" as="sourcePoint" />
+            <mxPoint x="793" y="4425.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-331" value="קשר בין משתתפים D8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="713" y="4435.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-332" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="703" y="4473.5" as="sourcePoint" />
+            <mxPoint x="793" y="4473.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-333" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478" y="4449.5" as="sourcePoint" />
+            <mxPoint x="678" y="4449.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-334" value="F14 - אישור על בקשת חברות&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="4405.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-335" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="4790" as="sourcePoint" />
+            <mxPoint x="120" y="4790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-337" value="טיפול בהוספת חבר לרשימת חברים לאחר אישור P 7.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="4710" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-338" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25.5" y="4760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-339" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689" y="4930" as="sourcePoint" />
+            <mxPoint x="779" y="4930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-340" value="רשימת חברים של שולח הבקשה" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="701" y="4945.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-341" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="686" y="4990" as="sourcePoint" />
+            <mxPoint x="776" y="4990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-342" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="4760" as="sourcePoint" />
+            <mxPoint x="783" y="4760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-343" value="קשר בין משתתפים D8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="703" y="4770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-344" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="693" y="4808" as="sourcePoint" />
+            <mxPoint x="783" y="4808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-345" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="508" y="4800" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-346" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4740" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-348" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="683" y="4800" as="sourcePoint" />
+            <mxPoint x="523" y="4800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-349" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="679" y="4770" as="sourcePoint" />
+            <mxPoint x="519" y="4770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-354" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="5030" as="sourcePoint" />
+            <mxPoint x="778" y="5030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-355" value="רשימת חברים של מקבל הבקשה" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="5045.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-356" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="5090" as="sourcePoint" />
+            <mxPoint x="775" y="5090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-357" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="4910" as="sourcePoint" />
+            <mxPoint x="805" y="4910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="4910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-358" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="5120" as="sourcePoint" />
+            <mxPoint x="810" y="5120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="5120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-359" value="משתמשים D1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="703" y="4870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-360" value="&amp;nbsp;F15 של שולח הבקשה USER ID שמירת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="421" y="4975.5" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-361" value="&amp;nbsp;F16 של מקבל הבקשה USER ID שמירת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="468" y="4930" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-362" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="p116xZQm3v9cJ2iETqo9-337">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="4860" as="sourcePoint" />
+            <mxPoint x="690" y="4970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-363" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="4871.5" as="sourcePoint" />
+            <mxPoint x="670" y="5060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p116xZQm3v9cJ2iETqo9-364" value="הצגה חברות F17" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="178" y="4760" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

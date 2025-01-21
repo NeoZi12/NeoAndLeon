@@ -16,8 +16,8 @@
         <mxCell id="N1io5kbSZVHDLyrMjV62-26" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Events&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Event_Name&lt;br&gt;Event_ID&lt;br&gt;start_Date&lt;br&gt;end Date&lt;br&gt;MaxParticipants&lt;br&gt;Category&lt;br&gt;Description&lt;br&gt;commentsToEvent[]&lt;br&gt;Users[]&lt;br&gt;City&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;join_event(Event_ID)&lt;br&gt;add_comment(comment)&lt;br&gt;leave_event()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="457.5" y="-970" width="175" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="N1io5kbSZVHDLyrMjV62-29" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;General_Admin&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Admin_ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;remove_event(event_id)&lt;br&gt;block_user(User_id)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="295" y="-550" width="150" height="160" as="geometry" />
+        <mxCell id="N1io5kbSZVHDLyrMjV62-29" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;General_Admin&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Admin_ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;remove_event(event_id)&lt;br&gt;block_user(User_id)&lt;br&gt;replay_message()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="295" y="-510" width="150" height="160" as="geometry" />
         </mxCell>
         <mxCell id="vL9RlByqo2Ar6GnZcr3Q-3" value="includes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="295" y="-860" width="70" height="30" as="geometry" />
@@ -117,7 +117,7 @@
             <mxPoint x="470" y="-550" as="sourcePoint" />
             <mxPoint x="120" y="-640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="489" y="-640" />
+              <mxPoint x="490" y="-670" />
               <mxPoint x="310" y="-640" />
               <mxPoint x="135" y="-640" />
             </Array>
@@ -125,7 +125,7 @@
         </mxCell>
         <mxCell id="ACac_jB48AHR82yadkdC-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="355" y="-550" as="sourcePoint" />
+            <mxPoint x="355" y="-600" as="sourcePoint" />
             <mxPoint x="355.05" y="-640" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -168,6 +168,9 @@
               <mxPoint x="705" y="-730" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ACac_jB48AHR82yadkdC-18" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;message_to_admin&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;user_ID&lt;br&gt;content_message&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;send_message()&lt;br&gt;reply_message()&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-640" width="140" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

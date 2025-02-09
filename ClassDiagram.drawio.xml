@@ -40,8 +40,8 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-17" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;notification&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;recevier_ID&lt;br&gt;sender_ID&lt;br&gt;content&lt;br&gt;is_accpeted&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="815" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="662.5" y="460" width="150" height="170" as="geometry" />
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;br&gt;join_event()&lt;br&gt;leave_event()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="662.5" y="460" width="150" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,7 +49,7 @@
             <mxPoint x="480" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.018;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-21" edge="1">
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.013;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="535" as="sourcePoint" />
             <mxPoint x="670" y="535" as="targetPoint" />

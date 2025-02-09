@@ -88,22 +88,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-2" edge="1">
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.853;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-2" edge="1" source="bR_zl2Ta9dNlj8v7vdXF-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="495" as="sourcePoint" />
             <mxPoint x="150" y="495" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="470" y="495" />
+              <mxPoint x="480" y="495" />
               <mxPoint x="340" y="495" />
               <mxPoint x="165" y="495" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.827;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="473" y="575" as="sourcePoint" />
-            <mxPoint x="472.72" y="496.41999999999996" as="targetPoint" />
-            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.2;entryY=1.004;entryDx=0;entryDy=0;exitX=0.35;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-15" target="bR_zl2Ta9dNlj8v7vdXF-2" edge="1">

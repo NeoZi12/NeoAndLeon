@@ -64,27 +64,15 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-17" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;notification&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;recevier_ID&lt;br&gt;sender_ID&lt;br&gt;content&lt;br&gt;is_accpeted&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="815" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-18" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Date&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;Day&lt;br&gt;Month&lt;br&gt;Year&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;setDate()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="712.5" y="315" width="100" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-19" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=89;" parent="1" vertex="1">
-          <mxGeometry x="667.5" y="322.5" width="25" height="40.18" as="geometry" />
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-19" target="bR_zl2Ta9dNlj8v7vdXF-18" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="339" as="sourcePoint" />
-            <mxPoint x="740" y="339.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="662.5" y="460" width="150" height="170" as="geometry" />
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;br&gt;add_comment()&lt;br&gt;filter_event()&lt;br&gt;show_event()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="662.5" y="460" width="150" height="190" as="geometry" />
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.355;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-21" target="bR_zl2Ta9dNlj8v7vdXF-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="588" y="540" as="sourcePoint" />
             <mxPoint x="480" y="495" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="588" y="520" />
+              <mxPoint x="590" y="527" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -120,13 +108,6 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-29" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="210" y="893.75" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.433;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="405" as="sourcePoint" />
-            <mxPoint x="727" y="440" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-31" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;messageToAdmin&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;user_ID&lt;br&gt;content_message&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;send_message()&lt;br&gt;reply_message()&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="200" y="515" width="140" height="120" as="geometry" />
         </mxCell>
@@ -157,22 +138,7 @@
             <mxPoint x="480" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-37" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot; cellpadding=&quot;4&quot; height=&quot;100%&quot; width=&quot;100%&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;commentEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;event_id&lt;br&gt;user_id&lt;br&gt;content&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;add_comment()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="440" y="45" width="95" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.989;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-37" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="95" as="sourcePoint" />
-            <mxPoint x="580" y="145" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="580" y="95" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-39" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=89;" parent="1" vertex="1">
-          <mxGeometry x="573.75" y="135" width="20" height="34.91" as="geometry" />
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-40" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;HomePage&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;log_in(mail,password)&lt;br&gt;log_out()&lt;br&gt;register(Fname,Lname,phone&lt;br&gt;mail,city,gender,password)&lt;br&gt;search_events(event_name)&lt;br&gt;create_event(event_name&lt;br&gt;category, state_date,&lt;br&gt;end_date, num_participants)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-40" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;HomePage&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;log_in(mail,password)&lt;br&gt;log_out()&lt;br&gt;register(Fname,Lname,phone&lt;br&gt;mail,city,gender,password)&lt;br&gt;search_events(event_name)&lt;br&gt;create_event(event_name&lt;br&gt;category, state_date,&lt;br&gt;end_date, num_participants)&lt;br&gt;select_event()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="430" y="815" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-41" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;friendRequest&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;user recevier&lt;br&gt;&amp;nbsp;user&amp;nbsp;sender&lt;br&gt;notifaction&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;accpet_request()&lt;br&gt;reject_request()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
@@ -201,8 +167,8 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-45" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=89;" parent="1" vertex="1">
           <mxGeometry x="131.18" y="942.72" width="17.59" height="34.91" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-46" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;userProfile&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_profile()&lt;br&gt;show_events()&lt;br&gt;show_details()&lt;br&gt;delete_account()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="45" y="40" width="155" height="120" as="geometry" />
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-46" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;userProfile&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_profile()&lt;br&gt;show_events()&lt;br&gt;show_details()&lt;br&gt;delete_account()&lt;br&gt;show_friend_list()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="45" y="30" width="155" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

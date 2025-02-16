@@ -16,12 +16,6 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-5" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;generalAdmin&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Admin_ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;remove_event(event_id)&lt;br&gt;block_user(User_id)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="350" y="585" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-35" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="265" y="259.5" as="sourcePoint" />
-            <mxPoint x="488" y="355" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-7" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;eventCategory&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;category_name&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="702.5" y="205.13" width="110" height="100" as="geometry" />
         </mxCell>
@@ -64,10 +58,10 @@
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-17" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;notification&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;recevier_ID&lt;br&gt;sender_ID&lt;br&gt;content&lt;br&gt;is_accpeted&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="815" width="105" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;br&gt;add_comment()&lt;br&gt;filter_event()&lt;br&gt;show_event()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="662.5" y="460" width="150" height="190" as="geometry" />
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-21" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;createdEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Date_created&lt;br&gt;user_ID&lt;br&gt;event_ID&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;edit_event()&lt;br&gt;delete_event()&lt;br&gt;remove_expired_events()&lt;br&gt;add_comment()&lt;br&gt;filter_event()&lt;br&gt;show_event()&lt;br&gt;get_random_events()&lt;br&gt;get_just_created_events()&lt;br&gt;get_on_fire_events()&lt;br&gt;join_event()&lt;br&gt;leave_event()&lt;br&gt;show_participants()&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+          <mxGeometry x="662.5" y="420" width="150" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.355;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-21" target="bR_zl2Ta9dNlj8v7vdXF-4" edge="1">
+        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.58;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.003;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-21" target="bR_zl2Ta9dNlj8v7vdXF-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="588" y="540" as="sourcePoint" />
             <mxPoint x="480" y="495" as="targetPoint" />
@@ -127,15 +121,6 @@
             <Array as="points">
               <mxPoint x="400" y="535" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-35" value="&lt;table style=&quot;width:100%;height:100%;border-collapse:collapse;&quot; cellpadding=&quot;4&quot; height=&quot;100%&quot; width=&quot;100%&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;userJoinEvent&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;event_ID&lt;br&gt;user ID&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;leave_event()&lt;br&gt;join_event()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="325" y="295" width="105" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="bR_zl2Ta9dNlj8v7vdXF-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.995;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.019;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bR_zl2Ta9dNlj8v7vdXF-35" target="bR_zl2Ta9dNlj8v7vdXF-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="334" as="sourcePoint" />
-            <mxPoint x="480" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bR_zl2Ta9dNlj8v7vdXF-40" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;HomePage&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;log_in(mail,password)&lt;br&gt;log_out()&lt;br&gt;register(Fname,Lname,phone&lt;br&gt;mail,city,gender,password)&lt;br&gt;search_events(event_name)&lt;br&gt;create_event(event_name&lt;br&gt;category, state_date,&lt;br&gt;end_date, num_participants)&lt;br&gt;select_event()&lt;br&gt;send_messageAdmin()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
@@ -226,6 +211,17 @@
             <mxPoint x="790" y="1055" as="targetPoint" />
             <Array as="points">
               <mxPoint x="750" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xeM9J8ZCPQi6m4OyQix2-1" value="" style="endArrow=none;html=1;rounded=0;entryX=1.002;entryY=0.82;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bR_zl2Ta9dNlj8v7vdXF-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="480" />
+              <mxPoint x="440" y="480" />
+              <mxPoint x="440" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -32,7 +32,7 @@
         <mxCell id="oSNm2gFJewh6cx8omiH8-8" value="צפייה באירועים" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="84" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oSNm2gFJewh6cx8omiH8-9" value="יצירת אירועים" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oSNm2gFJewh6cx8omiH8-9" value="&amp;nbsp;ניהול ויצירת אירועים" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="460" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oSNm2gFJewh6cx8omiH8-10" value="כתיבת תגובה לאירוע&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -128,12 +128,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="400" as="sourcePoint" />
             <mxPoint x="190" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5GfRZ158vmTmaLMJ0SQH-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oSNm2gFJewh6cx8omiH8-26">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="590" as="sourcePoint" />
-            <mxPoint x="470" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5GfRZ158vmTmaLMJ0SQH-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oSNm2gFJewh6cx8omiH8-29">

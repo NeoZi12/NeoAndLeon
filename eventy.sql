@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2025 at 02:07 PM
+-- Generation Time: Apr 24, 2025 at 02:14 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -119,8 +119,17 @@ CREATE TABLE `friend_requests` (
 
 CREATE TABLE `images` (
   `img_id` int(11) NOT NULL,
-  `img_src` varchar(255) NOT NULL
+  `img_src` varchar(255) NOT NULL,
+  `event_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `images`
+--
+
+INSERT INTO `images` (`img_id`, `img_src`, `event_id`) VALUES
+(998, '/img/undefined2.png', 2),
+(999, '/img/undefinded.webp\r\n', 1);
 
 -- --------------------------------------------------------
 

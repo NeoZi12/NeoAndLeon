@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 24, 2025 at 02:14 PM
+-- Generation Time: Apr 26, 2025 at 05:19 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -69,7 +69,8 @@ CREATE TABLE `events` (
 
 INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`) VALUES
 (1, 'Football Match', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0),
-(2, 'Poker Match', 'Games', '0000-00-00', '0000-00-00', '00:00:00', 0, 0);
+(2, 'Poker Match', 'Games', '0000-00-00', '0000-00-00', '00:00:00', 0, 0),
+(3, 'Surfing Session', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -128,6 +129,7 @@ CREATE TABLE `images` (
 --
 
 INSERT INTO `images` (`img_id`, `img_src`, `event_id`) VALUES
+(997, '/img/surfing.jpg', 3),
 (998, '/img/undefined2.png', 2),
 (999, '/img/undefinded.webp\r\n', 1);
 

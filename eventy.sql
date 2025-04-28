@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2025 at 02:07 PM
+-- Generation Time: Apr 28, 2025 at 03:54 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -49,27 +49,51 @@ CREATE TABLE `created_events` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `default_images`
+--
+
+CREATE TABLE `default_images` (
+  `category` varchar(255) NOT NULL,
+  `src` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `default_images`
+--
+
+INSERT INTO `default_images` (`category`, `src`) VALUES
+('Art', '/img/art.png'),
+('Cards', '/img/cards.jpg'),
+('Meetup', '/img/meetup.jpg'),
+('Other', '/img/other.jpg'),
+('Sport', '/img/sport.jpg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `events`
 --
 
 CREATE TABLE `events` (
-  `event_id` int(11) NOT NULL,
+  `event_id` bigint(11) NOT NULL,
   `event_name` varchar(100) NOT NULL,
   `category` varchar(50) NOT NULL,
   `start_date` date NOT NULL,
   `end_date` date NOT NULL,
   `start_time` time NOT NULL,
   `is_private` tinyint(1) NOT NULL,
-  `participant_amount` int(11) NOT NULL
+  `participant_amount` int(11) NOT NULL,
+  `city` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `events`
 --
 
-INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`) VALUES
-(1, 'Football Match', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0),
-(2, 'Poker Match', 'Games', '0000-00-00', '0000-00-00', '00:00:00', 0, 0);
+INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`, `city`) VALUES
+(1, 'Football 3v3', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0, 'Haifa'),
+(2, 'Basketball 5X1', 'Sport', '2025-04-28', '2025-04-29', '21:11:00', 0, 6, 'Kfar Saba'),
+(3, 'Poker Match', 'Cards', '0000-00-00', '0000-00-00', '00:00:00', 0, 5, 'Ashdod');
 
 -- --------------------------------------------------------
 
@@ -119,8 +143,17 @@ CREATE TABLE `friend_requests` (
 
 CREATE TABLE `images` (
   `img_id` int(11) NOT NULL,
-  `img_src` varchar(255) NOT NULL
+  `img_src` varchar(255) NOT NULL,
+  `event_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `images`
+--
+
+INSERT INTO `images` (`img_id`, `img_src`, `event_id`) VALUES
+(998, '/img/undefined2.png', 2),
+(999, '/img/undefinded.webp\r\n', 1);
 
 -- --------------------------------------------------------
 
@@ -192,6 +225,12 @@ ALTER TABLE `created_events`
   ADD PRIMARY KEY (`user_id`,`event_id`);
 
 --
+-- Indexes for table `default_images`
+--
+ALTER TABLE `default_images`
+  ADD PRIMARY KEY (`src`);
+
+--
 -- Indexes for table `events`
 --
 ALTER TABLE `events`
@@ -244,6 +283,16 @@ ALTER TABLE `private_messages`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`user_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `events`
+--
+ALTER TABLE `events`
+  MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2025 at 05:19 PM
+-- Generation Time: Apr 21, 2025 at 02:07 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.0.30
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -69,8 +69,7 @@ CREATE TABLE `events` (
 
 INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`) VALUES
 (1, 'Football Match', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0),
-(2, 'Poker Match', 'Games', '0000-00-00', '0000-00-00', '00:00:00', 0, 0),
-(3, 'Surfing Session', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0);
+(2, 'Poker Match', 'Games', '0000-00-00', '0000-00-00', '00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -120,18 +119,8 @@ CREATE TABLE `friend_requests` (
 
 CREATE TABLE `images` (
   `img_id` int(11) NOT NULL,
-  `img_src` varchar(255) NOT NULL,
-  `event_id` int(255) NOT NULL
+  `img_src` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `images`
---
-
-INSERT INTO `images` (`img_id`, `img_src`, `event_id`) VALUES
-(997, '/img/surfing.jpg', 3),
-(998, '/img/undefined2.png', 2),
-(999, '/img/undefinded.webp\r\n', 1);
 
 -- --------------------------------------------------------
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 08, 2025 at 03:32 PM
+-- Generation Time: May 08, 2025 at 07:46 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -130,7 +130,8 @@ INSERT INTO `event_participants` (`user_id`, `event_id`, `join_date`) VALUES
 (0, 0, '2025-05-08 12:48:41'),
 (0, 1, '2025-05-08 13:23:48'),
 (0, 3, '2025-05-08 13:30:25'),
-(0, 5, '2025-05-08 13:29:56');
+(0, 5, '2025-05-08 13:29:56'),
+(2, 3, '2025-05-08 17:21:53');
 
 -- --------------------------------------------------------
 
@@ -223,7 +224,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`) VALUES
-('leon', 'gitelman', 'Leon2020', 0, 'Leonn1996', 'male', 'Haifa', 'leon@gmail.com');
+('leon', 'gitelman', 'Leon2020', 1, 'Leonn1996', 'male', 'Haifa', 'leon@gmail.com'),
+('neo', 'zino', 'neoTheOne', 2, 'Aa123456', 'male', 'Ahituv', 'Neo@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -310,6 +312,12 @@ ALTER TABLE `users`
 --
 ALTER TABLE `events`
   MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `user_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

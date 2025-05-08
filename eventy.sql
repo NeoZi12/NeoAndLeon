@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 28, 2025 at 03:54 PM
+-- Generation Time: May 08, 2025 at 03:32 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -93,7 +93,8 @@ CREATE TABLE `events` (
 INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`, `city`) VALUES
 (1, 'Football 3v3', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0, 'Haifa'),
 (2, 'Basketball 5X1', 'Sport', '2025-04-28', '2025-04-29', '21:11:00', 0, 6, 'Kfar Saba'),
-(3, 'Poker Match', 'Cards', '0000-00-00', '0000-00-00', '00:00:00', 0, 5, 'Ashdod');
+(3, 'Poker Match', 'Cards', '0000-00-00', '0000-00-00', '00:00:00', 0, 5, 'Ashdod'),
+(5, 'running', 'Sport', '2025-05-08', '2025-05-08', '17:15:00', 1, 2, 'Haifa');
 
 -- --------------------------------------------------------
 
@@ -118,9 +119,18 @@ CREATE TABLE `event_comments` (
 CREATE TABLE `event_participants` (
   `user_id` int(11) NOT NULL,
   `event_id` int(11) NOT NULL,
-  `join_date` date NOT NULL,
-  `participant_list` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL CHECK (json_valid(`participant_list`))
+  `join_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `event_participants`
+--
+
+INSERT INTO `event_participants` (`user_id`, `event_id`, `join_date`) VALUES
+(0, 0, '2025-05-08 12:48:41'),
+(0, 1, '2025-05-08 13:23:48'),
+(0, 3, '2025-05-08 13:30:25'),
+(0, 5, '2025-05-08 13:29:56');
 
 -- --------------------------------------------------------
 
@@ -209,6 +219,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`) VALUES
+('leon', 'gitelman', 'Leon2020', 0, 'Leonn1996', 'male', 'Haifa', 'leon@gmail.com');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -292,7 +309,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

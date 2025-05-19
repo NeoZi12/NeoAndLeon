@@ -2,16 +2,24 @@ import { useAuth } from "../../context/AuthContext";
 import { NavLink } from "react-router-dom";
 import classes from "./NavBar.module.css";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export default function NavBar() {
   const { user, setUser } = useAuth();
 
   const navigate = useNavigate();
 
+  // logout from page and remove the session
   const handleLogout = () => {
-    localStorage.removeItem("user");
-    setUser(null);
-    navigate("/home");
+    axios
+      .post("/login/logout", {}, { withCredentials: true })
+      .then(() => {
+        setUser(null); // נקה את ה-user מה-Context
+        navigate("/home");
+      })
+      .catch((err) => {
+        console.error("Logout failed:", err);
+      });
   };
 
   return (

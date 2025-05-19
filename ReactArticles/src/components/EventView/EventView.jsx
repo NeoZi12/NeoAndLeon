@@ -3,12 +3,14 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import classes from "./EventView.module.css";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 
 import ParticipantsList from "../participantsList/participantsList";
 
 export default function EventView() {
   // use for navigate
   const navigate = useNavigate();
+  const { user, setUser } = useAuth();
 
   const [event, setEvent] = useState(null);
   const { id } = useParams();
@@ -37,11 +39,8 @@ export default function EventView() {
 
   // this function adding participants to events
   function handleJoin() {
-    // temp for check only!
-    const tempID = 1;
-
     const payload = {
-      user_id: tempID,
+      user_id: user.user_id,
       event_id: id,
     };
 
@@ -107,7 +106,7 @@ export default function EventView() {
       <div>
         <h2>participants : {participants.map((p) => p.user_name)}</h2>
         <ParticipantsList />
-        <button onClick={handleJoin}>Join Event</button>
+        {user && <button onClick={handleJoin}>Join Event</button>}
       </div>
     </div>
   );

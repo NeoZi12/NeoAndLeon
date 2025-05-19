@@ -1,24 +1,25 @@
-// src/context/AuthContext.js
-import { createContext, useState, useEffect, useContext } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import axios from "axios";
 
-// יצירת הקונטקסט
 export const AuthContext = createContext();
 
-// קומפוננטת Provider שמכילה את המשתמש
-export const AuthProvider = ({ children }) => {
-  const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem("user");
-    return saved ? JSON.parse(saved) : null;
-  });
+// חשוב!! בסיס כתובת השרת
+axios.defaults.baseURL = "http://localhost:8801";
+axios.defaults.withCredentials = true; // שולח cookie עם כל בקשה
 
-  // סנכרון עם localStorage
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
-    if (user) {
-      localStorage.setItem("user", JSON.stringify(user));
-    } else {
-      localStorage.removeItem("user");
-    }
-  }, [user]);
+    axios
+      .get("/login/session") // לא צריך כתובת מלאה בגלל baseURL
+      .then((res) => setUser(res.data))
+      .catch(() => setUser(null))
+      .finally(() => setLoading(false));
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
 
   return (
     <AuthContext.Provider value={{ user, setUser }}>
@@ -27,5 +28,4 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-// הוק מותאם אישית לצורך שימוש נוח
 export const useAuth = () => useContext(AuthContext);

@@ -5,6 +5,8 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import EventCard from "../../components/EventCard/EventCard";
 
 export default function Home() {
+
+  
   const [events, setEvents] = useState([]);
 
   useEffect(() => {

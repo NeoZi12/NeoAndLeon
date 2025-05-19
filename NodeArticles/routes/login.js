@@ -4,14 +4,13 @@ const dbSingleton = require("../dbSingleton");
 const router = express.Router();
 const db = dbSingleton.getConnection();
 
+// REGISTER
 router.post("/register", (req, res) => {
   const { first_name, last_name, user_name, password, gender, city, email } =
     req.body;
 
-  // Step 1: Query for existing emails
-  const userEmailsQuery = `SELECT email FROM users WHERE email = ?`;
-
-  db.query(userEmailsQuery, [email], (err, results) => {
+  const checkEmailQuery = `SELECT email FROM users WHERE email = ?`;
+  db.query(checkEmailQuery, [email], (err, results) => {
     if (err) {
       console.error("Error checking existing email:", err);
       return res.status(500).json({ error: "Database error." });
@@ -21,20 +20,18 @@ router.post("/register", (req, res) => {
       return res.status(400).json({ error: "Email already exists." });
     }
 
-    // Step 2: Hash the password
     bcrypt.genSalt(10, (err, salt) => {
       if (err) {
-        console.error("Error generating salt:", err);
-        return res.status(500).json({ error: "Error generating salt." });
+        console.error("Salt error:", err);
+        return res.status(500).json({ error: "Salt generation failed." });
       }
 
       bcrypt.hash(password, salt, (err, hashedPassword) => {
         if (err) {
-          console.error("Error hashing password:", err);
-          return res.status(500).json({ error: "Error hashing password." });
+          console.error("Hash error:", err);
+          return res.status(500).json({ error: "Password hashing failed." });
         }
 
-        // Step 3: Insert new user
         const insertQuery = `
           INSERT INTO users (first_name, last_name, user_name, password, gender, city, email)
           VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -49,24 +46,24 @@ router.post("/register", (req, res) => {
           email,
         ];
 
-        db.query(insertQuery, values, (err, results) => {
+        db.query(insertQuery, values, (err, result) => {
           if (err) {
-            console.error("Error inserting user:", err);
-            return res.status(500).json({ error: "Database error." });
+            console.error("Insert error:", err);
+            return res.status(500).json({ error: "User creation failed." });
           }
 
           res.status(201).json({ message: "User registered successfully." });
         });
-      }); // <-- סוגר של bcrypt.hash
-    }); // <-- סוגר של bcrypt.genSalt
-  }); // <-- סוגר של db.query
-}); // <-- סוגר של router.post
+      });
+    });
+  });
+});
 
+// LOGIN
 router.post("/login", (req, res) => {
   const { email, password } = req.body;
 
   const query = `SELECT * FROM users WHERE email = ?`;
-
   db.query(query, [email], (err, results) => {
     if (err) {
       console.error("Database error:", err);
@@ -81,7 +78,7 @@ router.post("/login", (req, res) => {
 
     bcrypt.compare(password, user.password, (err, isMatch) => {
       if (err) {
-        console.error("Error comparing passwords:", err);
+        console.error("Compare error:", err);
         return res.status(500).json({ error: "Authentication error." });
       }
 
@@ -89,24 +86,26 @@ router.post("/login", (req, res) => {
         return res.status(401).json({ error: "Invalid credentials." });
       }
 
-      // Success
+      // Save user in session
+      req.session.user = {
+        user_id: user.user_id,
+        first_name: user.first_name,
+        last_name: user.last_name,
+        user_name: user.user_name,
+        city: user.city,
+        gender: user.gender,
+        email: user.email,
+      };
+
       res.status(200).json({
         message: "Login successful.",
-        user: {
-          id: user.id,
-          first_name: user.first_name,
-          last_name: user.last_name,
-          user_name: user.user_name,
-          email: user.email,
-          city: user.city,
-          gender: user.gender,
-        },
+        user: req.session.user,
       });
     });
   });
 });
 
-// routes/login.js (או כל קובץ ראוט אחר)
+// GET cities
 router.get("/cities", (req, res) => {
   const query = "SELECT name_heb FROM yeshuvim";
   db.query(query, (err, results) => {
@@ -114,8 +113,30 @@ router.get("/cities", (req, res) => {
       console.error("Error getting cities:", err);
       return res.status(500).json({ error: "Database error." });
     }
-    res.json(results); // results = [{ name_heb: "חיפה" }, ...]
+    res.json(results);
   });
+});
+
+router.post("/logout", (req, res) => {
+  console.log("in logout");
+  req.session.destroy((err) => {
+    if (err) {
+      console.error("Logout error:", err);
+      return res.status(500).json({ error: "Logout failed." });
+    }
+
+    res.clearCookie("connect.sid"); // שם ה-cookie של express-session
+    res.status(200).json({ message: "Logged out successfully." });
+  });
+});
+
+// GET user from session
+router.get("/session", (req, res) => {
+  if (req.session.user) {
+    res.status(200).json(req.session.user);
+  } else {
+    res.status(401).json({ error: "Not logged in" });
+  }
 });
 
 module.exports = router;

@@ -57,6 +57,8 @@ export default function Login() {
           Login
         </button>
       </form>
+      <p>test@gmail.com</p>
+      <p>testtest</p>
     </div>
   );
 }

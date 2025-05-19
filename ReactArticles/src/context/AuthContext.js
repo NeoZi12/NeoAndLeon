@@ -12,11 +12,15 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios
-      .get("/login/session") // לא צריך כתובת מלאה בגלל baseURL
-      .then((res) => setUser(res.data))
-      .catch(() => setUser(null))
-      .finally(() => setLoading(false));
+    const isLogged = localStorage.getItem("logged");
+    // fix the problem with 401
+    if (!isLogged) {
+      axios
+        .get("/login/session") // לא צריך כתובת מלאה בגלל baseURL
+        .then((res) => setUser(res.data))
+        .catch(() => setUser(null))
+        .finally(() => setLoading(false));
+    } else setLoading(false);
   }, []);
 
   if (loading) return <div>Loading...</div>;

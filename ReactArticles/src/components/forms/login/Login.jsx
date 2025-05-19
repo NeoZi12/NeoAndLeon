@@ -19,7 +19,8 @@ export default function Login() {
       .post("/login/login", { email, password })
       .then((res) => {
         const user = res.data.user;
-        localStorage.setItem("user", JSON.stringify(user));
+        // save true to local if user logged in
+        localStorage.setItem("logged");
         setUser(user);
         navigate("/home");
       })

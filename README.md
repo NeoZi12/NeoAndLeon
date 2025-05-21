@@ -30,7 +30,7 @@
 |------------|------------------------------------|
 | Frontend   | React, Axios, Vite, CSS Modules    |
 | Backend    | Node.js, Express.js, express-session |
-| Database   | MySQL with `mysql2`                |
+| Database   | MySQL with `eventy`                |
 | Tools      | Nodemon, VS Code, Git              |
 
 ---

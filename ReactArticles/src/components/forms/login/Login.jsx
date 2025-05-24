@@ -16,11 +16,11 @@ export default function Login() {
     setError("");
 
     axios
-      .post("/login/login", { email, password })
+      .post("/login/login", { email, password }, { withCredentials: true })
       .then((res) => {
         const user = res.data.user;
         // save true to local if user logged in
-        localStorage.setItem("logged");
+        localStorage.setItem("logged", "true");
         setUser(user);
         navigate("/home");
       })

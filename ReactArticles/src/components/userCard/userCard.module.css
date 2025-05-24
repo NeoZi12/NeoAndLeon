@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  width: 50%;
+  background-color: #f4f9fc;
+}
+
+.main {
+  width: 100%;
+  max-width: 1000px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: #002f5c;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 4rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-size: 2rem;
+  color: #2e2e2e;
+  line-height: 3.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card p {
+  margin-bottom: 2rem;
+}
+
+.card span {
+  font-weight: bold;
+  color: #005a9e;
+}
+
+.message {
+  padding: 3rem;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #cc0000;
+}

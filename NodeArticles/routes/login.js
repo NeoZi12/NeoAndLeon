@@ -97,6 +97,7 @@ router.post("/login", (req, res) => {
         email: user.email,
       };
 
+
       res.status(200).json({
         message: "Login successful.",
         user: req.session.user,

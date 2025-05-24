@@ -6,6 +6,7 @@ const homeRoute = require("./routes/home");
 const newEventRoute = require("./routes/newEvent");
 const eventRoute = require("./routes/event");
 const loginRoute = require("./routes/login");
+const personalAreaRoute = require("./routes/personalArea");
 
 const app = express();
 const port = 8801;
@@ -31,10 +32,11 @@ app.use(
   })
 );
 
-app.use("/home", homeRoute);
-app.use("/newEvent", newEventRoute);
-app.use("/event", eventRoute);
+app.use("/home", homeRoute); // Home Page
+app.use("/newEvent", newEventRoute); // New Event
+app.use("/event", eventRoute); // Events
 app.use("/login", loginRoute); // כולל /register, /session, /logout
+app.use("/personal-area", personalAreaRoute); // Personal area path
 
 app.use((err, req, res, next) => {
   console.error("Unhandled Error:", err);

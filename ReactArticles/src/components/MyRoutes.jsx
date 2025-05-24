@@ -6,6 +6,7 @@ import classes from "./Page.module.css";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import NewEvent from "./forms/newEvent/NewEvent";
 import EventView from "./EventView/EventView";
+import PersonalArea from "../pages/personalArea/personalArea";
 
 export default function MyRoutes() {
   return (
@@ -16,6 +17,7 @@ export default function MyRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/personal-area" element={<PersonalArea />} />
           <Route path="/newEvent" element={<NewEvent />} />
           <Route path="/event/:id" element={<EventView />} />
         </Routes>

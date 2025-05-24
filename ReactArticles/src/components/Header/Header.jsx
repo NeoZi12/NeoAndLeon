@@ -7,8 +7,6 @@ export default function Header() {
   const navigate = useNavigate();
   const { user, setUser } = useAuth();
 
-  console.log(user);
-
   function handleLogoClick() {
     navigate("/home");
   }

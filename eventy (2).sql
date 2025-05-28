@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2025 at 11:42 AM
+-- Generation Time: May 28, 2025 at 10:30 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `eventy`
 --
+CREATE DATABASE IF NOT EXISTS `eventy` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `eventy`;
 
 -- --------------------------------------------------------
 
@@ -43,8 +45,19 @@ CREATE TABLE `admins` (
 CREATE TABLE `created_events` (
   `user_id` int(11) NOT NULL,
   `event_id` int(11) NOT NULL,
-  `created_date` date NOT NULL
+  `created_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `created_events`
+--
+
+INSERT INTO `created_events` (`user_id`, `event_id`, `created_date`) VALUES
+(7, 13, '2025-05-25 20:53:09'),
+(7, 14, '2025-05-25 20:54:54'),
+(7, 15, '2025-05-25 20:54:57'),
+(7, 16, '2025-05-25 20:58:03'),
+(7, 17, '2025-05-26 09:59:30');
 
 -- --------------------------------------------------------
 
@@ -91,10 +104,12 @@ CREATE TABLE `events` (
 --
 
 INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_date`, `start_time`, `is_private`, `participant_amount`, `city`) VALUES
-(1, 'Football 3v3', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 0, 'Haifa'),
+(1, 'Football 3v3', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 8, 'Haifa'),
 (2, 'Basketball 5X1', 'Sport', '2025-04-28', '2025-04-29', '21:11:00', 0, 6, 'Kfar Saba'),
 (3, 'Poker Match', 'Cards', '0000-00-00', '0000-00-00', '00:00:00', 0, 5, 'Ashdod'),
-(5, 'running', 'Sport', '2025-05-08', '2025-05-08', '17:15:00', 1, 2, 'Haifa');
+(5, 'running', 'Sport', '2025-05-08', '2025-05-08', '17:15:00', 1, 2, 'Haifa'),
+(9, 'BasketBall', 'Cards', '2025-06-01', '2025-05-29', '03:36:00', 1, 6, 'תירוש'),
+(17, 'Tennis', 'Sport', '2025-05-27', '2025-05-27', '11:59:00', 0, 4, 'יגור');
 
 -- --------------------------------------------------------
 
@@ -105,10 +120,23 @@ INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_d
 CREATE TABLE `event_comments` (
   `event_id` int(11) NOT NULL,
   `comment_content` varchar(255) NOT NULL,
-  `comment_date` date NOT NULL,
-  `comment_time` time NOT NULL,
-  `comment_id` int(11) NOT NULL
+  `comment_time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `comment_id` int(11) NOT NULL,
+  `user_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `event_comments`
+--
+
+INSERT INTO `event_comments` (`event_id`, `comment_content`, `comment_time`, `comment_id`, `user_id`) VALUES
+(17, 'Shalom!!!!!\n', '2025-05-26 10:33:00', 11, 7),
+(17, 'Wazzup', '2025-05-26 10:46:21', 12, 8),
+(17, 'Yo', '2025-05-26 10:47:54', 13, 7),
+(3, 'Hello', '2025-05-26 11:54:40', 14, 7),
+(1, 'Shalom', '2025-05-26 12:18:16', 15, 7),
+(1, 'Bye', '2025-05-26 12:20:23', 16, 7),
+(1, 'asdddddddddddddddddddddddddddddddddddddddddddddddddddddddd', '2025-05-26 12:23:40', 17, 7);
 
 -- --------------------------------------------------------
 
@@ -127,11 +155,11 @@ CREATE TABLE `event_participants` (
 --
 
 INSERT INTO `event_participants` (`user_id`, `event_id`, `join_date`) VALUES
-(0, 0, '2025-05-08 12:48:41'),
-(0, 1, '2025-05-08 13:23:48'),
-(0, 3, '2025-05-08 13:30:25'),
-(0, 5, '2025-05-08 13:29:56'),
-(2, 3, '2025-05-08 17:21:53');
+(7, 1, '2025-05-24 12:21:39'),
+(7, 3, '2025-05-24 12:18:55'),
+(7, 5, '2025-05-24 13:40:21'),
+(7, 17, '2025-05-26 12:16:35'),
+(9, 1, '2025-05-24 15:10:36');
 
 -- --------------------------------------------------------
 
@@ -216,16 +244,20 @@ CREATE TABLE `users` (
   `password` varchar(255) NOT NULL,
   `gender` varchar(255) NOT NULL,
   `city` varchar(56) NOT NULL,
-  `email` varchar(255) NOT NULL
+  `email` varchar(255) NOT NULL,
+  `src` varchar(42) NOT NULL DEFAULT '/img/undefined2.png',
+  `is_admin` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`) VALUES
-('leon', 'gitelman', 'Leon2020', 1, 'Leonn1996', 'male', 'Haifa', 'leon@gmail.com'),
-('neo', 'zino', 'neoTheOne', 2, 'Aa123456', 'male', 'Ahituv', 'Neo@gmail.com');
+INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`, `src`, `is_admin`) VALUES
+('test', 'test', 'test', 7, '$2b$10$yL9gZRQvUo3ePoupxE30YueNNIUfJZprp1qTPwOygYiVP/4c29wh.', 'male', 'מקווה ישראל', 'test@gmail.com', '/img/undefined2.png', 0),
+('leotest', 'leo', 'gitelman', 8, '$2b$10$6Yk3q.hWpLhwOmnUg/j6zuSxpnzBcf7hPAuUfR1Fb0oJJghW31fEi', 'male', 'בת שלמה', 'leo1234@gmail.com', '/img/undefined2.png', 0),
+('leo', 'leo', 'leoleo', 9, '$2b$10$g14CpaFm61BMgaLuAeqlEOqKvtfysnHtYPUbACpN7YeeRM1mygqBi', 'male', 'בת שלמה', 'leleo@gmail.com', '/img/undefined2.png', 0),
+('AdminFirst', 'AdminLast', 'AdminUsername', 10, '$2b$10$aIdVvyNzjZlFQUxwcnRb0uzAJExchkORePuyej6mdj9ScVYr9nyqO', 'male', 'מזכרת בתיה', 'admin@gmail.com', '/img/undefined2.png', 1);
 
 -- --------------------------------------------------------
 
@@ -1614,13 +1646,19 @@ ALTER TABLE `yeshuvim`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `event_id` bigint(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `event_comments`
+--
+ALTER TABLE `event_comments`
+  MODIFY `comment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `user_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

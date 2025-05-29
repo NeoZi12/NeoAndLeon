@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 28, 2025 at 10:30 PM
+-- Generation Time: May 29, 2025 at 03:29 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -107,7 +107,6 @@ INSERT INTO `events` (`event_id`, `event_name`, `category`, `start_date`, `end_d
 (1, 'Football 3v3', 'Sport', '0000-00-00', '0000-00-00', '00:00:00', 0, 8, 'Haifa'),
 (2, 'Basketball 5X1', 'Sport', '2025-04-28', '2025-04-29', '21:11:00', 0, 6, 'Kfar Saba'),
 (3, 'Poker Match', 'Cards', '0000-00-00', '0000-00-00', '00:00:00', 0, 5, 'Ashdod'),
-(5, 'running', 'Sport', '2025-05-08', '2025-05-08', '17:15:00', 1, 2, 'Haifa'),
 (9, 'BasketBall', 'Cards', '2025-06-01', '2025-05-29', '03:36:00', 1, 6, 'תירוש'),
 (17, 'Tennis', 'Sport', '2025-05-27', '2025-05-27', '11:59:00', 0, 4, 'יגור');
 
@@ -136,7 +135,8 @@ INSERT INTO `event_comments` (`event_id`, `comment_content`, `comment_time`, `co
 (3, 'Hello', '2025-05-26 11:54:40', 14, 7),
 (1, 'Shalom', '2025-05-26 12:18:16', 15, 7),
 (1, 'Bye', '2025-05-26 12:20:23', 16, 7),
-(1, 'asdddddddddddddddddddddddddddddddddddddddddddddddddddddddd', '2025-05-26 12:23:40', 17, 7);
+(1, 'asdddddddddddddddddddddddddddddddddddddddddddddddddddddddd', '2025-05-26 12:23:40', 17, 7),
+(1, 'Hello', '2025-05-29 12:56:51', 18, 10);
 
 -- --------------------------------------------------------
 
@@ -159,7 +159,8 @@ INSERT INTO `event_participants` (`user_id`, `event_id`, `join_date`) VALUES
 (7, 3, '2025-05-24 12:18:55'),
 (7, 5, '2025-05-24 13:40:21'),
 (7, 17, '2025-05-26 12:16:35'),
-(9, 1, '2025-05-24 15:10:36');
+(9, 1, '2025-05-24 15:10:36'),
+(10, 1, '2025-05-29 12:53:28');
 
 -- --------------------------------------------------------
 
@@ -246,18 +247,19 @@ CREATE TABLE `users` (
   `city` varchar(56) NOT NULL,
   `email` varchar(255) NOT NULL,
   `src` varchar(42) NOT NULL DEFAULT '/img/undefined2.png',
-  `is_admin` tinyint(1) NOT NULL DEFAULT 0
+  `is_admin` tinyint(1) NOT NULL DEFAULT 0,
+  `blocked` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`, `src`, `is_admin`) VALUES
-('test', 'test', 'test', 7, '$2b$10$yL9gZRQvUo3ePoupxE30YueNNIUfJZprp1qTPwOygYiVP/4c29wh.', 'male', 'מקווה ישראל', 'test@gmail.com', '/img/undefined2.png', 0),
-('leotest', 'leo', 'gitelman', 8, '$2b$10$6Yk3q.hWpLhwOmnUg/j6zuSxpnzBcf7hPAuUfR1Fb0oJJghW31fEi', 'male', 'בת שלמה', 'leo1234@gmail.com', '/img/undefined2.png', 0),
-('leo', 'leo', 'leoleo', 9, '$2b$10$g14CpaFm61BMgaLuAeqlEOqKvtfysnHtYPUbACpN7YeeRM1mygqBi', 'male', 'בת שלמה', 'leleo@gmail.com', '/img/undefined2.png', 0),
-('AdminFirst', 'AdminLast', 'AdminUsername', 10, '$2b$10$aIdVvyNzjZlFQUxwcnRb0uzAJExchkORePuyej6mdj9ScVYr9nyqO', 'male', 'מזכרת בתיה', 'admin@gmail.com', '/img/undefined2.png', 1);
+INSERT INTO `users` (`first_name`, `last_name`, `user_name`, `user_id`, `password`, `gender`, `city`, `email`, `src`, `is_admin`, `blocked`) VALUES
+('test', 'test', 'test', 7, '$2b$10$yL9gZRQvUo3ePoupxE30YueNNIUfJZprp1qTPwOygYiVP/4c29wh.', 'male', 'מקווה ישראל', 'test@gmail.com', '/img/undefined2.png', 0, 0),
+('leo', 'leo', 'leoleo', 9, '$2b$10$g14CpaFm61BMgaLuAeqlEOqKvtfysnHtYPUbACpN7YeeRM1mygqBi', 'male', 'בת שלמה', 'leleo@gmail.com', '/img/undefined2.png', 0, 0),
+('AdminFirst', 'AdminLast', 'AdminUsername', 10, '$2b$10$aIdVvyNzjZlFQUxwcnRb0uzAJExchkORePuyej6mdj9ScVYr9nyqO', 'male', 'מזכרת בתיה', 'admin@gmail.com', '/img/undefined2.png', 1, 0),
+('Moshe', 'Hershkovitz', 'MosheH23', 11, '$2b$10$gUcPxwSkSLjpySwfytgN3eqInTueiS1eFyM0uBusPnSEF9oO.CKoe', 'male', 'כפר ביאליק', 'moshe@gmail.com', '/img/undefined2.png', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -1652,13 +1654,13 @@ ALTER TABLE `events`
 -- AUTO_INCREMENT for table `event_comments`
 --
 ALTER TABLE `event_comments`
-  MODIFY `comment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `comment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `user_id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

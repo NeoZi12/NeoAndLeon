@@ -8,7 +8,7 @@ import axios from "axios";
 
 export default function PersonalArea() {
   const { user } = useAuth();
-  const [userEvents, setUserEvents] = useState([]);
+  const [userEvents, setUserEvents] = useState();
 
   useEffect(() => {
     const logged = localStorage.getItem("logged");
@@ -38,7 +38,7 @@ export default function PersonalArea() {
 
       <section className={classes.eventsSection}>
         <h2>My Events </h2>
-        {userEvents.length > 0 ? (
+        {userEvents ? (
           <div className={classes.eventGrid}>
             {userEvents.map((el) => (
               <EventCard key={el.event_id} event={el} />

@@ -802,21 +802,6 @@
         <mxCell id="By0TepzvvaxTaUj1Oqfp-213" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="37.75" y="4770" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-214" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="701.25" y="4940" as="sourcePoint" />
-            <mxPoint x="791.25" y="4940" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-215" value="רשימת חברים של שולח הבקשה" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="713.25" y="4955.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-216" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="698.25" y="5000" as="sourcePoint" />
-            <mxPoint x="788.25" y="5000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-217" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="705.25" y="4770" as="sourcePoint" />
@@ -850,122 +835,68 @@
             <mxPoint x="531.25" y="4780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-224" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700.25" y="5040" as="sourcePoint" />
-            <mxPoint x="790.25" y="5040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-225" value="רשימת חברים של מקבל הבקשה" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="712.25" y="5055.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-226" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="697.25" y="5100" as="sourcePoint" />
-            <mxPoint x="787.25" y="5100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-227" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="667.25" y="4920" as="sourcePoint" />
-            <mxPoint x="817.25" y="4920" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="722.25" y="4920" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-228" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="672.25" y="5130" as="sourcePoint" />
-            <mxPoint x="822.25" y="5130" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="727.25" y="5130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-229" value="משתמשים D1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="715.25" y="4880" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-230" value="&amp;nbsp;F15 של שולח הבקשה USER ID שמירת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" parent="1" vertex="1">
-          <mxGeometry x="433.25" y="4985.5" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-231" value="&amp;nbsp;F16 של מקבל הבקשה USER ID שמירת" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=30;" parent="1" vertex="1">
-          <mxGeometry x="480.25" y="4940" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-232" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="By0TepzvvaxTaUj1Oqfp-212" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413.25" y="4870" as="sourcePoint" />
-            <mxPoint x="702.25" y="4980" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-233" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.688;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="422.25" y="4881.5" as="sourcePoint" />
-            <mxPoint x="682.25" y="5070" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-234" value="הצגה חברות F17" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="190.25" y="4770" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-235" value="E1 משתמש" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="12.5" y="5202" width="80" height="80" as="geometry" />
+          <mxGeometry x="47" y="5022" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-236" value="&lt;div&gt;P7.5&lt;/div&gt;טיפול בשליחת הודעות פרטיות בין משתמשים חברים&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="307.5" y="5160" width="160" height="160" as="geometry" />
+          <mxGeometry x="342" y="4980" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-237" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="237.5" y="5229" width="20" height="30" as="geometry" />
+          <mxGeometry x="272" y="5049" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-238" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695.5" y="5215.5" as="sourcePoint" />
-            <mxPoint x="785.5" y="5215.5" as="targetPoint" />
+            <mxPoint x="730" y="5035.5" as="sourcePoint" />
+            <mxPoint x="820" y="5035.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-239" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695.5" y="5263.5" as="sourcePoint" />
-            <mxPoint x="785.5" y="5263.5" as="targetPoint" />
+            <mxPoint x="730" y="5083.5" as="sourcePoint" />
+            <mxPoint x="820" y="5083.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-240" value="D9 הודעות פרטיות&amp;nbsp;&lt;div&gt;בין&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;משתמשים&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="673" y="5222" width="120" height="40" as="geometry" />
+          <mxGeometry x="707.5" y="5042" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-241" value="F18- פרטי הודעה פרטית למשתמש אחר&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="92.5" y="5192" width="220" height="30" as="geometry" />
+          <mxGeometry x="127" y="5012" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-242" value="F18- פרטי הודעה פרטית למשתמש אחר&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480.5" y="5172" width="220" height="30" as="geometry" />
+          <mxGeometry x="515" y="4992" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-243" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" target="By0TepzvvaxTaUj1Oqfp-240" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="465.02" y="5222" as="sourcePoint" />
-            <mxPoint x="664.98" y="5224" as="targetPoint" />
+            <mxPoint x="499.52" y="5042" as="sourcePoint" />
+            <mxPoint x="699.48" y="5044" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-244" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="99" y="5227" as="sourcePoint" />
-            <mxPoint x="299" y="5229" as="targetPoint" />
+            <mxPoint x="133.5" y="5047" as="sourcePoint" />
+            <mxPoint x="333.5" y="5049" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-245" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="92.5" y="5272" as="sourcePoint" />
-            <mxPoint x="294" y="5270" as="targetPoint" />
+            <mxPoint x="127" y="5092" as="sourcePoint" />
+            <mxPoint x="328.5" y="5090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-246" value="&amp;nbsp;F20- של מקבל ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="102.5" y="5232" width="190" height="30" as="geometry" />
+          <mxGeometry x="137" y="5052" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-248" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.05;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="By0TepzvvaxTaUj1Oqfp-240" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="464.25" y="5272" as="sourcePoint" />
-            <mxPoint x="666" y="5270" as="targetPoint" />
+            <mxPoint x="498.75" y="5092" as="sourcePoint" />
+            <mxPoint x="700.5" y="5090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-249" value="&amp;nbsp;F20- של מקבל ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="462" y="5240" width="190" height="30" as="geometry" />
+          <mxGeometry x="496.5" y="5060" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-250" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;P4&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="375" y="33" width="50" height="40" as="geometry" />
@@ -981,12 +912,12 @@
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-254" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460.5" y="5302" as="sourcePoint" />
-            <mxPoint x="680" y="5270" as="targetPoint" />
+            <mxPoint x="495" y="5122" as="sourcePoint" />
+            <mxPoint x="714.5" y="5090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-255" value="&amp;nbsp;F19- של שולח ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-10;" parent="1" vertex="1">
-          <mxGeometry x="490" y="5282" width="190" height="30" as="geometry" />
+          <mxGeometry x="524.5" y="5102" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-257" value="USER ID F3.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="183" y="480" width="100" height="30" as="geometry" />

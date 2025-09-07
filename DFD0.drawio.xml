@@ -1093,6 +1093,88 @@
         <mxCell id="ui4OMxcCEqbWxq3R3owT-294" value="F18 : מייל אימות" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="190" y="368" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="2726" as="sourcePoint" />
+            <mxPoint x="770" y="2726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="2774" as="sourcePoint" />
+            <mxPoint x="770" y="2774" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-3" value="D9 הודעות פרטיות&amp;nbsp;&lt;div&gt;בין&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;משתמשים&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2730" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-6" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26amp%3Bnbsp%3B%D7%9E%D7%A1%D7%A4%D7%A8%20%D7%90%D7%99%D7%A8%D7%95%D7%A2%20F%207.1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22571%22%20y%3D%221748%22%20width%3D%22110%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2839" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-10" value="F18- פרטי הודעה פרטית למשתמש אחר&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82.2" y="2580" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-11" value="F18- פרטי הודעה פרטית למשתמש אחר&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="452.2" y="2700" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ui4OMxcCEqbWxq3R3owT-272">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="2660" as="sourcePoint" />
+            <mxPoint x="665" y="2749.5220538846183" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="2730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.209;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.392;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ui4OMxcCEqbWxq3R3owT-271" target="ui4OMxcCEqbWxq3R3owT-272">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2610" as="sourcePoint" />
+            <mxPoint x="332.2" y="2672" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="2610" />
+              <mxPoint x="300" y="2610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.239;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ui4OMxcCEqbWxq3R3owT-272">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="2540" as="sourcePoint" />
+            <mxPoint x="400" y="2560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="65" y="2660" />
+              <mxPoint x="305" y="2660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-15" value="&amp;nbsp;F20- של מקבל ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2630" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.389;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ui4OMxcCEqbWxq3R3owT-272">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392.45" y="2552" as="sourcePoint" />
+            <mxPoint x="660" y="2770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="2770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-17" value="&amp;nbsp;F20- של מקבל ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="452.2" y="2740" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.279;exitY=0.965;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ui4OMxcCEqbWxq3R3owT-272">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="482.7" y="2822" as="sourcePoint" />
+            <mxPoint x="702.2" y="2790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="2810" />
+              <mxPoint x="560" y="2810" />
+              <mxPoint x="640" y="2810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bl85TS88C4mYcQ7NwaCd-19" value="&amp;nbsp;F19- של שולח ההודעה USER ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="452.2" y="2782" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

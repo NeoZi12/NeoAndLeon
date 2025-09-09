@@ -817,10 +817,10 @@
             <mxPoint x="795.25" y="4818" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-220" value="F10 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
+        <mxCell id="By0TepzvvaxTaUj1Oqfp-220" value="F14 -&amp;nbsp; של מקבל הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="520.25" y="4810" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="By0TepzvvaxTaUj1Oqfp-221" value="F11 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
+        <mxCell id="By0TepzvvaxTaUj1Oqfp-221" value="F16 -&amp;nbsp; של שולח הבקשה USER ID&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="512.25" y="4750" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="By0TepzvvaxTaUj1Oqfp-222" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
